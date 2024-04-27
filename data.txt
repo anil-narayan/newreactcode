@@ -1,0 +1,40 @@
+Student:
+
+name
+age
+subjects
+addresses
+
+
+--- JSON ---
+{
+    "name": "anil",
+    "age" : 31,
+    "subjects": ["science","maths","kannada"],
+    "addresses":[{
+        "country": "IN",
+        "state": "KA",
+        "postcode": "563125"
+    },{
+        "country": "IE",
+        "state": "DB",
+        "postcode": "162HJ"
+    }]
+}
+
+--- yaml ---
+name: "anil"
+age: 31
+subjects:
+  - science
+  - maths
+  - kannada
+addresses:
+  - country: "IN"
+    state: "KA"
+    postcode: 563125
+  - country: "IE"
+    state: "DB"
+    postcode: "162HJ"
+
+      
